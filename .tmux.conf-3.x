@@ -184,6 +184,7 @@ set-window-option -g window-status-current-style fg=white,bg=colour234,bright
 #set -g status-left "#[fg=white,bg=blue] > #S < #[default] |" # session-name
 #set -g status-right "#[fg=red,bright][ #[fg=cyan]#H #[fg=red]]#[default] #[fg=yellow,bright]- %Y.%m.%d #[fg=green]%H:%M #[default]#[fg=magenta,bright](load: #(cat /proc/loadavg | cut -d \" \" -f 1,2,3))#[default]"
 set-option -g status-position bottom
+set -g history-limit 5000
 set -g status-left-length 15
 #set -g status-left ' #[fg=colour34]#h |'
 set -g status-left ' #[fg=colour34]#S |'
